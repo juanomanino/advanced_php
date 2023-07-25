@@ -6,7 +6,13 @@
     <title>Fecha y Hora en PHP</title>
 </head>
 <body>   
-    <php?
+    <?php
+    echo "<h3>";
+
+    echo readfile("./handling/webdictionary.txt");
+
+    echo "</h3>";
+
     
     ?>
     

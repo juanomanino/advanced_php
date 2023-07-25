@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fecha y Hora en PHP</title>
+    <title>Actualizar archivos en PHP</title>
 </head>
 <body>    
-    <php?
-    
-    ?>
+
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+    Select image to upload:
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" value="Upload Image" name="submit">
+    </form>
+
+
     
     
 </body>
